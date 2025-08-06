@@ -90,6 +90,7 @@ For **any contribution** involving domain-specific results, include a **video de
 - ✅ Mechanical: CAD assembly animation, FEA result walkthrough
 - ✅ Electrical: Simulation or schematic demo
 - ✅ Software: Terminal demo, UI recording, simulation walkthrough
+- ✅ Life Science: ML models predicions, driller mechanism assembly/working simulation
 
 Attach this video directly in the PR or provide a link to an accessible location.
 
