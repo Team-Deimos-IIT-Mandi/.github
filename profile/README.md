@@ -34,7 +34,7 @@ Each PR should:
 - Be from one of the above branches.
 - Reference the issue it's addressing.
 - Be clearly descriptive in its title and body.
-- The merge should be made by squashing the commits together.
+- Address and resolve all the comments (if any) from the reviewers before the merge (the merge should be made via squash and merge).
 
 ### 🔸 Pull Requests (PRs)
 
