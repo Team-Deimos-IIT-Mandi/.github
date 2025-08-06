@@ -151,6 +151,7 @@ If anything is unclear or you’re stuck:
 - Discuss in your team’s communication channel or in your task on Notion
 - Or raise a GitHub Discussion in the Q&A category
 
+---
 
 ### 💬 GitHub Discussions & Idea Sharing
 
