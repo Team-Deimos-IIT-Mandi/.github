@@ -14,6 +14,7 @@ All changes (features, bug fixes, updates) **must start with an assigned GitHub 
 - Open a GitHub issue **before** starting development and get it assigned to yourself.
 - Link the issue to the relevant **Notion task** if applicable.
 - All **PRs must reference the issue number** they are solving using GitHub’s linking syntax (e.g., `Fixes #12`).
+- If any sub-parts or problems arise while working, create **sub-issues** linked to the main issue.
 
 ### 🔸 Branch Naming Convention
 
@@ -58,6 +59,30 @@ If multiple PRs address the same issue (for example, different subtasks):
 
 ---
 
+## ⚙️ Workflows and Automation (GitHub Actions)
+
+If you add a GitHub Action or CI/CD workflow (e.g. `build.yml`, `test.yml`):
+- **Tag the relevant team leads or repository owners** to ensure:
+  - The workflow is reviewed and incorporated into **branch protection rules**.
+  - **Branch protection rules** will require:
+    - Pull Requests to merge
+    - The workflow to complete successfully (✅ green tick)
+
+This ensures we maintain a reliable and stable `main`/`master` branch.
+
+---
+
+## 📌 Issue Closure Protocol
+
+Upon completing a task/feature/bug fix:
+- **Close the main issue** and all **related sub-issues**.
+- Ensure all comments and feedback under the issue thread are addressed.
+- While closing an issue:
+  - Attach a **video demonstration** that proves the issue has been fully resolved.
+  - Clearly state what was done and that all sub-issues have been completed.
+
+---
+
 ## 🎥 Documentation with Videos
 
 For **any contribution** involving domain-specific results, include a **video demo**. Examples include:
@@ -78,10 +103,8 @@ A good `README.md` should contain:
 - Project overview
 - Architecture diagrams (if applicable)
 - Setup and installation instructions
-- How to contribute
 - Dependencies
 - Video demos
-- License (if any)
 
 ### 2. Clean Folder Structure
 
@@ -105,7 +128,7 @@ Example:
 
 - Use meaningful commit messages.
 - Do not upload irrelevant or large binary files unless required.
-- Keep branches small and focused.
+- Keep branches and PRs small and focused.
 - Rebase or squash commits before merging to `main` if needed.
 - Clean up stale branches after merging.
 
@@ -115,10 +138,9 @@ Example:
 
 Branch protection is **not enforced by default**. We trust contributors to:
 - Never commit directly to `main`/`master`
+- Get the PR reviewed from any of the leads or even your peers to ensure that its double checked before the merge.
 - Work on branches and create clean PRs
 - Avoid unnecessary or irrelevant commits
-
-Let’s treat the repository as a production-grade collaborative workspace.
 
 ---
 
@@ -126,8 +148,5 @@ Let’s treat the repository as a production-grade collaborative workspace.
 
 If anything is unclear or you’re stuck:
 - Ask your domain lead
-- Discuss in your team’s communication channel (Slack, Discord, WhatsApp)
+- Discuss in your team’s communication channel or in your task on Notion
 - Or raise a GitHub Discussion in the repo
-
-
-Let me know if you want to include automated templates for issues/PRs to help enforce these rules or a GitHub Action to check naming conventions or enforce linking.
