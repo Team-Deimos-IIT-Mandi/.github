@@ -34,6 +34,7 @@ Each PR should:
 - Be from one of the above branches.
 - Reference the issue it's addressing.
 - Be clearly descriptive in its title and body.
+- The merge should be made by squashing the commits together.
 
 ### 🔸 Pull Requests (PRs)
 
@@ -129,7 +130,7 @@ Example:
 - Use meaningful commit messages.
 - Do not upload irrelevant or large binary files unless required.
 - Keep branches and PRs small and focused.
-- Rebase or squash commits before merging to `main` if needed.
+- Squash commits before merging to `main`.
 - Clean up stale branches after merging.
 
 ---
