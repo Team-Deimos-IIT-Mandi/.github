@@ -149,4 +149,24 @@ Branch protection is **not enforced by default**. We trust contributors to:
 If anything is unclear or you’re stuck:
 - Ask your domain lead
 - Discuss in your team’s communication channel or in your task on Notion
-- Or raise a GitHub Discussion in the repo
+- Or raise a GitHub Discussion in the Q&A category
+
+
+### 💬 GitHub Discussions & Idea Sharing
+
+We highly encourage all contributors and team members to actively use the **GitHub Discussions** tab to:
+
+* Ask questions (Q\&A)
+* Share interesting ideas or project enhancements
+* Vote and engage in polls
+* Post results or updates in **Show and Tell**
+* Contribute to domain-specific threads under **Technical Discussions** (Electrical, Mechanical, Software, Life Sciences, etc.)
+
+> 💡 **Have an idea or a question? Don’t hesitate — start a discussion!**
+> Whether you're brainstorming a new feature or seeking feedback on a challenge, this space is open to all members.
+
+Engaging in Discussions ensures we:
+
+* Promote open collaboration and opinions of others
+* Build knowledge across teams
+* Document context for future contributors
