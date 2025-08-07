@@ -55,7 +55,7 @@ If multiple PRs address the same issue (for example, different subtasks):
 ## 🧠 Task Linking & Traceability
 
 - All **GitHub issues must be linked** to their **corresponding task on Notion**.
-- For each GitHub **PR**, add the **PR number and link** in the Notion task.
+- For each GitHub **PR**, add the **PR number and link** in its corresponding issue and Notion task.
 - This ensures complete traceability across GitHub and Notion for all technical work.
 
 ---
