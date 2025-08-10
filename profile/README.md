@@ -42,7 +42,7 @@ Each PR should:
 - No direct commits are allowed on `main`/`master`.
 - PR titles and descriptions should clearly state:
   - What the change is doing
-  - What issue it addresses
+  - What issue it addresses (you can also link it in the PR’s Development section)
   - Any dependencies or related PRs
   - A short video demo (if applicable)
 
